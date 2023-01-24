@@ -1,0 +1,26 @@
+/* General styling */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.score {
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+}
+
+canvas {
+    border: solid 1px white;
+}
